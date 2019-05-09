@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
   #库的地址
-  s.source       = { :git => "https://github.com/cailufei123/Work.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/cailufei123/Work.git", :tag => "#{s.version}" }
   # s.source       = { :git => "https://github.com/cailufei123/Work.git", :commit => "e05513581c80a7c899e65de48e8fe474a64734eb" }
 
 
