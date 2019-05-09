@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   # s.source       = { :git => "https://github.com/cailufei123/Work.git", :commit => "e05513581c80a7c899e65de48e8fe474a64734eb" }
 
      
-  s.source_files = "AnimatedDemo/AnimatedDemo/TABAnimatedss/TABAnimated/**/*.{h,m}"
+  s.source_files = "AnimatedDemo/AnimatedDemo/TABAnimatedss/**/*"
 
 
 end
