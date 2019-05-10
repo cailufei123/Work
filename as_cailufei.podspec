@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   #库名，和文件名一样
-  s.name         = "as"
+  s.name         = "as_cailufei"
 
   #tag方式：填tag名称
   #commit方式：填commit的id
-  s.version      = "3.0"
+  s.version      = "4.0"
 
   #库的简介
-  s.summary      = "as是一个ios平台上的网络过渡动画(骨架屏)的封装"
+  s.summary      = "as_cailufei是一个ios平台上的网络过渡动画(骨架屏)的封装"
 
   #库的描述
   s.description  = <<-DESC
