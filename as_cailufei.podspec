@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   #库的描述
   s.description  = <<-DESC
-  as是一个ios平台上的网络过渡动画(骨架屏)的封装，目前仅支持oc
+  as_cailufei是一个ios平台上的网络过渡动画(骨架屏)的封装，目前仅支持oc
                            DESC
   #库的远程仓库地址
   s.homepage     = "https://github.com/cailufei123"
