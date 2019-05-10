@@ -19,6 +19,7 @@
     NSLog(@"fafafa");
     NSLog(@"fafafa");
     NSLog(@"fafafa");
+    NSLog(@"kabujian");
 }
 
 
