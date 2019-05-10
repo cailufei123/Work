@@ -33,7 +33,9 @@ Pod::Spec.new do |s|
 
  s. source_files = 'as_cailufei/*.{h,m}'
 
-s.dependency = 'AFNetworking' 
+# s.dependency = 'AFNetworking' 
+  s.dependency  'AFNetworking'
+
  s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
 
 
