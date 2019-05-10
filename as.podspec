@@ -27,11 +27,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
   #库的地址
-  s.source       = { :git => "https://github.com/cailufei123/Work.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/cailufei123/Work.git", :tag => s.version }
   # s.source       = { :git => "https://github.com/cailufei123/Work.git", :commit => "e05513581c80a7c899e65de48e8fe474a64734eb" }
 
 
- s. source_files = 'assd/as/**/*'
+ s. source_files = 'as/*.{h,m}'
+
 
  s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
 
