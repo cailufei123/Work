@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   #tag方式：填tag名称
   #commit方式：填commit的id
-  s.version      = "4.0"
+  s.version      = "5.0"
 
   #库的简介
   s.summary      = "as_cailufei是一个ios平台上的网络过渡动画(骨架屏)的封装"
@@ -33,6 +33,7 @@ Pod::Spec.new do |s|
 
  s. source_files = 'as_cailufei/*.{h,m}'
 
+s.dependency = 'AFNetworking'
 
  s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
 
