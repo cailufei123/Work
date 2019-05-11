@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|
 
   #库名，和文件名一样
-  s.name         = "as"
+  s.name         = "as_cailufei"
 
   #tag方式：填tag名称
   #commit方式：填commit的id
-  s.version      = "3.0"
+  s.version      = "5.0"
 
   #库的简介
-  s.summary      = "as是一个ios平台上的网络过渡动画(骨架屏)的封装"
+  s.summary      = "as_cailufei是一个ios平台上的网络过渡动画(骨架屏)的封装"
 
   #库的描述
   s.description  = <<-DESC
-  as是一个ios平台上的网络过渡动画(骨架屏)的封装，目前仅支持oc
+  as_cailufei是一个ios平台上的网络过渡动画(骨架屏)的封装，目前仅支持oc
                            DESC
   #库的远程仓库地址
   s.homepage     = "https://github.com/cailufei123"
@@ -31,8 +31,10 @@ Pod::Spec.new do |s|
 
 
 
- s. source_files = 'as/*.{h,m}'
+ s. source_files = 'as_cailufei/*.{h,m}'
 
+# s.dependency = 'AFNetworking' 
+  s.dependency  'AFNetworking'
 
  s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
 
